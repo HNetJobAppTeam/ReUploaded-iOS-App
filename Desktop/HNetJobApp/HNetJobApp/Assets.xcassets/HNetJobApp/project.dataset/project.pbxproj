@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1670BA591F5CBE530074930F /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1670BA511F5CBE530074930F /* MMDrawerBarButtonItem.m */; };
+		1670BA5A1F5CBE530074930F /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1670BA531F5CBE530074930F /* MMDrawerController.m */; };
+		1670BA5B1F5CBE530074930F /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1670BA561F5CBE530074930F /* MMDrawerVisualState.m */; };
+		1670BA5C1F5CBE530074930F /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1670BA581F5CBE530074930F /* UIViewController+MMDrawerController.m */; };
+		1670BA5F1F5CC0640074930F /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1670BA5E1F5CC0640074930F /* LeftSideViewController.swift */; };
+		1670BA611F5CCE300074930F /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1670BA601F5CCE300074930F /* RightSideViewController.swift */; };
+		16CE6E501F4BC701009413E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CE6E4F1F4BC701009413E4 /* AppDelegate.swift */; };
+		16CE6E521F4BC701009413E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CE6E511F4BC701009413E4 /* ViewController.swift */; };
+		16CE6E551F4BC701009413E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CE6E531F4BC701009413E4 /* Main.storyboard */; };
+		16CE6E571F4BC701009413E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CE6E561F4BC701009413E4 /* Assets.xcassets */; };
+		16CE6E5A1F4BC701009413E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CE6E581F4BC701009413E4 /* LaunchScreen.storyboard */; };
+		16CE6E621F4D1A46009413E4 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CE6E611F4D1A46009413E4 /* RegistrationViewController.swift */; };
+		16CE6E641F4DFDFF009413E4 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CE6E631F4DFDFF009413E4 /* MainPageViewController.swift */; };
+		16CE6E661F573AAA009413E4 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CE6E651F573AAA009413E4 /* MyAccountViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1670BA4F1F5CBE520074930F /* HNetJobApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HNetJobApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		1670BA501F5CBE530074930F /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		1670BA511F5CBE530074930F /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		1670BA521F5CBE530074930F /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		1670BA531F5CBE530074930F /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		1670BA541F5CBE530074930F /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		1670BA551F5CBE530074930F /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		1670BA561F5CBE530074930F /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		1670BA571F5CBE530074930F /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		1670BA581F5CBE530074930F /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		1670BA5E1F5CC0640074930F /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		1670BA601F5CCE300074930F /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
+		16CE6E4C1F4BC701009413E4 /* HNetJobApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNetJobApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CE6E4F1F4BC701009413E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16CE6E511F4BC701009413E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16CE6E541F4BC701009413E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16CE6E561F4BC701009413E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16CE6E591F4BC701009413E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16CE6E5B1F4BC701009413E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CE6E611F4D1A46009413E4 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		16CE6E631F4DFDFF009413E4 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		16CE6E651F573AAA009413E4 /* MyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16CE6E491F4BC701009413E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1670BA5D1F5CBE6A0074930F /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				1670BA501F5CBE530074930F /* MMDrawerBarButtonItem.h */,
+				1670BA511F5CBE530074930F /* MMDrawerBarButtonItem.m */,
+				1670BA521F5CBE530074930F /* MMDrawerController.h */,
+				1670BA531F5CBE530074930F /* MMDrawerController.m */,
+				1670BA541F5CBE530074930F /* MMDrawerController+Subclass.h */,
+				1670BA551F5CBE530074930F /* MMDrawerVisualState.h */,
+				1670BA561F5CBE530074930F /* MMDrawerVisualState.m */,
+				1670BA571F5CBE530074930F /* UIViewController+MMDrawerController.h */,
+				1670BA581F5CBE530074930F /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawer;
+			sourceTree = "<group>";
+		};
+		16CE6E431F4BC701009413E4 = {
+			isa = PBXGroup;
+			children = (
+				16CE6E4E1F4BC701009413E4 /* HNetJobApp */,
+				16CE6E4D1F4BC701009413E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16CE6E4D1F4BC701009413E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16CE6E4C1F4BC701009413E4 /* HNetJobApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16CE6E4E1F4BC701009413E4 /* HNetJobApp */ = {
+			isa = PBXGroup;
+			children = (
+				16CE6E4F1F4BC701009413E4 /* AppDelegate.swift */,
+				1670BA601F5CCE300074930F /* RightSideViewController.swift */,
+				16CE6E511F4BC701009413E4 /* ViewController.swift */,
+				16CE6E631F4DFDFF009413E4 /* MainPageViewController.swift */,
+				1670BA5D1F5CBE6A0074930F /* MMDrawer */,
+				16CE6E651F573AAA009413E4 /* MyAccountViewController.swift */,
+				16CE6E531F4BC701009413E4 /* Main.storyboard */,
+				1670BA5E1F5CC0640074930F /* LeftSideViewController.swift */,
+				16CE6E611F4D1A46009413E4 /* RegistrationViewController.swift */,
+				16CE6E561F4BC701009413E4 /* Assets.xcassets */,
+				16CE6E581F4BC701009413E4 /* LaunchScreen.storyboard */,
+				16CE6E5B1F4BC701009413E4 /* Info.plist */,
+				1670BA4F1F5CBE520074930F /* HNetJobApp-Bridging-Header.h */,
+			);
+			path = HNetJobApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16CE6E4B1F4BC701009413E4 /* HNetJobApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CE6E5E1F4BC701009413E4 /* Build configuration list for PBXNativeTarget "HNetJobApp" */;
+			buildPhases = (
+				16CE6E481F4BC701009413E4 /* Sources */,
+				16CE6E491F4BC701009413E4 /* Frameworks */,
+				16CE6E4A1F4BC701009413E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HNetJobApp;
+			productName = HNetJobApp;
+			productReference = 16CE6E4C1F4BC701009413E4 /* HNetJobApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16CE6E441F4BC701009413E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HNet;
+				TargetAttributes = {
+					16CE6E4B1F4BC701009413E4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 16CE6E471F4BC701009413E4 /* Build configuration list for PBXProject "HNetJobApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16CE6E431F4BC701009413E4;
+			productRefGroup = 16CE6E4D1F4BC701009413E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CE6E4B1F4BC701009413E4 /* HNetJobApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16CE6E4A1F4BC701009413E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CE6E5A1F4BC701009413E4 /* LaunchScreen.storyboard in Resources */,
+				16CE6E571F4BC701009413E4 /* Assets.xcassets in Resources */,
+				16CE6E551F4BC701009413E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CE6E481F4BC701009413E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CE6E641F4DFDFF009413E4 /* MainPageViewController.swift in Sources */,
+				1670BA591F5CBE530074930F /* MMDrawerBarButtonItem.m in Sources */,
+				1670BA5A1F5CBE530074930F /* MMDrawerController.m in Sources */,
+				16CE6E621F4D1A46009413E4 /* RegistrationViewController.swift in Sources */,
+				1670BA5B1F5CBE530074930F /* MMDrawerVisualState.m in Sources */,
+				16CE6E661F573AAA009413E4 /* MyAccountViewController.swift in Sources */,
+				1670BA5C1F5CBE530074930F /* UIViewController+MMDrawerController.m in Sources */,
+				16CE6E521F4BC701009413E4 /* ViewController.swift in Sources */,
+				1670BA5F1F5CC0640074930F /* LeftSideViewController.swift in Sources */,
+				1670BA611F5CCE300074930F /* RightSideViewController.swift in Sources */,
+				16CE6E501F4BC701009413E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16CE6E531F4BC701009413E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CE6E541F4BC701009413E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16CE6E581F4BC701009413E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CE6E591F4BC701009413E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16CE6E5C1F4BC701009413E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16CE6E5D1F4BC701009413E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16CE6E5F1F4BC701009413E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HNetJobApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Group9.HNetJobApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HNetJobApp/HNetJobApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		16CE6E601F4BC701009413E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HNetJobApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Group9.HNetJobApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HNetJobApp/HNetJobApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16CE6E471F4BC701009413E4 /* Build configuration list for PBXProject "HNetJobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CE6E5C1F4BC701009413E4 /* Debug */,
+				16CE6E5D1F4BC701009413E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CE6E5E1F4BC701009413E4 /* Build configuration list for PBXNativeTarget "HNetJobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CE6E5F1F4BC701009413E4 /* Debug */,
+				16CE6E601F4BC701009413E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16CE6E441F4BC701009413E4 /* Project object */;
+}
